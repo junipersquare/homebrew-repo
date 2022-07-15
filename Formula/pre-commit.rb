@@ -1,8 +1,9 @@
 class PreCommit < Formula
   include Language::Python::Virtualenv
 
+  version "2.20.2"
   url "https://github.com/teeeg/pre-commit/archive/refs/tags/v2.20.2.tar.gz"
-  sha256 "e2c142b5cd0820e06ea76b45e7e62f314e5038de0ca08775c510802066fc1e8f"
+  sha256 "1a7308327386b1d7a45b21bbfc98a12218ac4fd3910ee8f79e21da380e7eb340"
   head "https://github.com/teeeg/pre-commit.git", branch: "main"
 
   depends_on "libyaml"
