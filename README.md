@@ -15,6 +15,13 @@ Example:
 brew install junipersquare/homebrew/pre-commit
 ```
 
+Once a formula is updated:
+
+```
+brew update. ## refresh formulas
+brew upgrade junipersquare/homebrew/<formula>
+```
+
 ## Adding a formula with a duplicate name
 > If your tap contains a formula that is also present in homebrew/core, that’s fine, but you would need to specify 
 > its fully qualified name in the form <user>/<repo>/<formula> to install your version.
