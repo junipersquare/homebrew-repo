@@ -7,7 +7,7 @@ A private formula repository for [Homebrew](https://docs.brew.sh/).
 
 ```bash
 brew tap junipersquare/homebrew git@github.com:junipersquare/homebrew-repo.git  
-brew install junipersquare/hombrew/<formula>
+brew install junipersquare/homebrew/<formula>
 ```
 
 Example: 
