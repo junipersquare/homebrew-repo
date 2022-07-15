@@ -1,10 +1,16 @@
 class PreCommit < Formula
   include Language::Python::Virtualenv
 
-  version "2.20.2"
-  url "https://github.com/teeeg/pre-commit/archive/refs/tags/v2.20.2.tar.gz"
-  sha256 "1a7308327386b1d7a45b21bbfc98a12218ac4fd3910ee8f79e21da380e7eb340"
+  version "2.20.3"
+  url "https://github.com/teeeg/pre-commit/archive/refs/tags/v2.20.3.tar.gz"
+  sha256 "5786463eab568b5d30a54742eef5bc2437d78c6acb1eb1dee446b6d0d4cab229"
   head "https://github.com/teeeg/pre-commit.git", branch: "main"
+
+  bottle do
+    root_url "https://github.com/junipersquare/homebrew-repo"
+    rebuild 1
+    sha256 cellar: :any, arm64_monterey: "f34dc2bf2fe96f5105c9127b22f741fe8332d8f2dd41bf90d6b478e98509e53a"
+  end
 
   depends_on "libyaml"
   depends_on "python@3.10"
