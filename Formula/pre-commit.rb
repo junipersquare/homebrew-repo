@@ -1,9 +1,9 @@
 class PreCommit < Formula
   include Language::Python::Virtualenv
 
-  version "2.20.3"
-  url "https://github.com/teeeg/pre-commit/archive/refs/tags/v2.20.3.tar.gz"
-  sha256 "5786463eab568b5d30a54742eef5bc2437d78c6acb1eb1dee446b6d0d4cab229"
+  version "2.20.4"
+  url "https://github.com/teeeg/pre-commit/archive/refs/tags/v2.20.4.tar.gz"
+  sha256 "53a1298d8755d9aa98c63a8298f6ed260439e5bcca424394a8db810da8dac6d9"
   head "https://github.com/teeeg/pre-commit.git", branch: "main"
 
   bottle do
