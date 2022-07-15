@@ -18,7 +18,7 @@ brew install junipersquare/homebrew/pre-commit
 Once a formula is updated:
 
 ```
-brew update. ## refresh formulas
+brew update    ## refresh formulas
 brew upgrade junipersquare/homebrew/<formula>
 ```
 
