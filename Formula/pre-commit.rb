@@ -5,7 +5,12 @@ class PreCommit < Formula
   url "https://github.com/teeeg/pre-commit/archive/refs/tags/v2.20.4.tar.gz"
   sha256 "53a1298d8755d9aa98c63a8298f6ed260439e5bcca424394a8db810da8dac6d9"
   head "https://github.com/teeeg/pre-commit.git", branch: "main"
-
+  
+  bottle do
+    rebuild 1
+    sha256 cellar: :any, arm64_monterey: "55a1b659b721a17f549f30df6949f040c53928e2c7cce84115a091d596c64a40"
+  end
+  
   depends_on "libyaml"
   depends_on "python@3.10"
   depends_on "six"
