@@ -5,11 +5,6 @@ class PreCommit < Formula
   url "https://github.com/teeeg/pre-commit/archive/refs/tags/v2.20.4.tar.gz"
   sha256 "53a1298d8755d9aa98c63a8298f6ed260439e5bcca424394a8db810da8dac6d9"
   head "https://github.com/teeeg/pre-commit.git", branch: "main"
-    
-  bottle do
-    root_url "https://github.com/junipersquare/homebrew-repo/releases/tag/pre-commit-v2.20.4"
-    sha256 arm64_monterey: "62c94adfd40c5eebbb88776a916be89b966437545602e08692a27e52a955e78d"
-  end
 
   depends_on "libyaml"
   depends_on "python@3.10"
