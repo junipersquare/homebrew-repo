@@ -8,7 +8,7 @@ class PreCommit < Formula
     
   bottle do
     root_url "https://github.com/junipersquare/homebrew-repo/releases/tag/pre-commit-v2.20.4"
-    sha256 arm64_monterey: "2fee906cdaf6d5aef4294493e5a9c5429e5ad2fd0a285d0fbfa024815c67088d"
+    sha256 arm64_monterey: "62c94adfd40c5eebbb88776a916be89b966437545602e08692a27e52a955e78d"
   end
 
   depends_on "libyaml"
