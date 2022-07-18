@@ -5,11 +5,11 @@ class PreCommit < Formula
   url "https://github.com/teeeg/pre-commit/archive/refs/tags/v2.20.4.tar.gz"
   sha256 "53a1298d8755d9aa98c63a8298f6ed260439e5bcca424394a8db810da8dac6d9"
   head "https://github.com/teeeg/pre-commit.git", branch: "main"
-
+    
   bottle do
     root_url "https://github.com/junipersquare/homebrew-repo"
-    rebuild 1
-    sha256 cellar: :any, arm64_monterey: "f34dc2bf2fe96f5105c9127b22f741fe8332d8f2dd41bf90d6b478e98509e53a"
+    rebuild 2
+    sha256 cellar: :any, arm64_monterey: "2fee906cdaf6d5aef4294493e5a9c5429e5ad2fd0a285d0fbfa024815c67088d"
   end
 
   depends_on "libyaml"
