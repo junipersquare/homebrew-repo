@@ -7,9 +7,8 @@ class PreCommit < Formula
   head "https://github.com/teeeg/pre-commit.git", branch: "main"
     
   bottle do
-    root_url "https://github.com/junipersquare/homebrew-repo"
-    rebuild 2
-    sha256 cellar: :any, arm64_monterey: "2fee906cdaf6d5aef4294493e5a9c5429e5ad2fd0a285d0fbfa024815c67088d"
+    root_url "https://github.com/junipersquare/homebrew-repo/releases/download/pre-commit@v2.20.4"
+    sha256 arm64_monterey: "2fee906cdaf6d5aef4294493e5a9c5429e5ad2fd0a285d0fbfa024815c67088d"
   end
 
   depends_on "libyaml"
