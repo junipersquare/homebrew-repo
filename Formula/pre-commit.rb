@@ -10,6 +10,7 @@ class PreCommit < Formula
     root_url "https://github.com/junipersquare/homebrew-repo/releases/download/pre-commit-v2.20.4"
     rebuild 1
     sha256 cellar: :any, arm64_monterey: "55a1b659b721a17f549f30df6949f040c53928e2c7cce84115a091d596c64a40"
+    sha256 cellar: :any, monterey: "223e7977ccb4ef34368f2a418a9754dc7e2dc44d17e0fa5f5ee7eb1be8afb253"
   end
   
   depends_on "libyaml"
